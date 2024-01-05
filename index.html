@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div id="bg-image">
+    <div class="logo-container">
+      <img src="./logo/odin-lined.png" alt="odin logo">
+      ODIN
+    </div>
+  </div>
+  <div class="text-container">
+    <div class="text-intro">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <i>now</i> to get started.</p>
+
+      <p>You <i>know</i> you want to.</p>
+
+      
+    </div>
+    <div class="form-div">  
+      <form action="" method="post">
+
+        <h3>Let's do this!</h3>
+
+        <section class="control-section">
+          <div class="control">
+            <label for="firstName">FIRST NAME</label>
+            <br>
+            <input type="text" id="firstName" name="firstName" 
+            minlength="1">
+          </div>
+          <div class="control">
+            <label for="lastName">LAST NAME</label>
+            <br>
+            <input type="text" id="lastName" name="lastName" 
+            minlength="1">
+          </div>
+          <div class="control">
+            <label for="mail">EMAIL</label>
+            <br>
+            <input type="email" id="mail" name="userMail">
+          </div>
+          <div class="control">
+            <label for="phone">PHONE NUMBER</label>
+            <br>
+            <input type="tel" id="phone" name="userPhone">
+          </div>
+          <div class="control">
+            <label for="pwd">PASSWORD</label>
+            <br>
+            <input type="password" id="pwd" name="userPwd" 
+            minlength="1" required>
+          </div>
+          <div class="control">
+            <label for="c-pwd">CONFIRM PASSWORD</label>
+            <br>
+            <input type="password" id="c-pwd" 
+            minlength="1" required>
+          </div>
+        </section>
+        <button type="generic">Create Account</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

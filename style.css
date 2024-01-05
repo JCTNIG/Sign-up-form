@@ -1,0 +1,109 @@
+@font-face {
+  font-family: odin-font;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+ #bg-image {
+  background-image: url(./images/roan-lavery-lvy_VvdLmnA-unsplash.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  width: 40%;
+}
+
+.text-container {
+  padding: 90px 40px;
+  height: 100vh;
+  width: 60%;
+}
+
+.control-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.control {
+  margin: 8px;
+  
+}
+
+.control label {
+  font-size: 10px;
+  
+}
+
+.text-intro {
+  padding-right: 16px;
+}
+
+button {
+  margin: 30px;
+}
+
+.logo-container {
+  height: 10vh;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: flex;
+  color: #ffff;
+  font-family: odin-font;
+  font-size: 46px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+
+.logo-container img {
+  height: 8vh;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove the default outline */
+  transition: border-color 0.3s; /* Add a smooth transition for border color */
+}
+
+input:focus {
+  border: 2px solid #007BFF;
+
+  box-shadow: 0 0 5px #007BFF; /* Add a box shadow for emphasis */
+}
+
+input:invalid {
+ border: 1px solid rgb(245, 55, 55);
+ border-radius: 4px;
+}
+input:valid {
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #13ab52; /* Add a box shadow for emphasis */
+}
+
+button {
+  background-color: #13ab52;
+  border: #13ab52;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  width: 150px;
+}
+
+button:hover {
+  
+}
+
